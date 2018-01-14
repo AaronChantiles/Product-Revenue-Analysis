@@ -52,15 +52,15 @@ ORDER BY Revenue DESC;
 
 --Revenue by employee in the same highest revenue product category
 /*Answer: 
-Margaret Peacock	$30,016.50
-Robert	King	    $28,598.50
-Nancy	Davolio	    $12,670
-Steven	Buchanan	$11,872.50
-Laura	Callahan	  $4,214
-Janet	Leverling	  $4,089
-Michael	Suyama	  $3,247.50
-Andrew	Fuller	  $2,783
-Anne	Dodsworth	  $1,973.50
+Margaret Peacock  $30,016.50
+Robert	King      $28,598.50
+Nancy	Davolio     $12,670
+Steven	Buchanan  $11,872.50
+Laura	Callahan    $4,214
+Janet	Leverling   $4,089
+Michael	Suyama    $3,247.50
+Andrew	Fuller    $2,783
+Anne	Dodsworth   $1,973.50
 */
 SELECT Cat.CategoryName,
        Emp.FirstName,
